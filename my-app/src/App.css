@@ -1,0 +1,45 @@
+
+* {
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	font-size: calc(10px + 2vmin);
+}
+
+.wrapper {
+    background-color: #1d4aa5;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.start_btn {
+    width: 200px;
+    height: 35px;
+    margin-top: 25px;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    background-color: #1d4aa5;
+    border: 1px solid white;
+}
+
+.start_btn:hover {
+    background-color: white;
+    color: #282c34;
+    transition: 0.4s all ease;
+}
+
+.info {
+    margin-bottom: 25px;
+    color: white;
+}
+
+.info_res {
+    margin-bottom: 25px;
+    color: red;
+}
